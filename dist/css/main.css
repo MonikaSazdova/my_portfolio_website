@@ -16,12 +16,12 @@
     transition: all 0.5s ease-out; }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #f19d59; }
+      background: #91f159; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(6px, -6px);
-      background: #f19d59; }
+      background: #91f159; }
 
 .menu {
   position: fixed;
@@ -66,7 +66,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #f19d59; }
+      color: #91f159; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -78,7 +78,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #f19d59; }
+      color: #91f159; }
 
 .nav-item:nth-child(1) {
   transition: all 0.5s ease-out;
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f19d59; }
+  color: #91f159; }
 
 main {
   padding: 4rem;
@@ -154,7 +154,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #f19d59;
+        color: #91f159;
         transition: all 0.5s ease-out; }
 
 .about-info {
@@ -179,7 +179,7 @@ main {
   .about-info .job {
     background: #a5a3a3;
     padding: 0.5rem;
-    border-bottom: #f19d59 5px solid; }
+    border-bottom: #91f159 5px solid; }
     .about-info .job h4 {
       margin-top: 0; }
 
@@ -199,7 +199,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #f19d59;
+    background: #91f159;
     color: #000; }
 
 .btn-dark {
@@ -224,7 +224,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background-color: #f19d59;
+      background-color: #91f159;
       color: white; }
       .boxes div:hover span {
         color: white; }
