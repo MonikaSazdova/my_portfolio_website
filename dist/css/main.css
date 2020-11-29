@@ -16,12 +16,12 @@
     transition: all 0.5s ease-out; }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #91f159; }
+      background: #f1bc59; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(6px, -6px);
-      background: #91f159; }
+      background: #f1bc59; }
 
 .menu {
   position: fixed;
@@ -42,14 +42,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: rgba(139, 137, 137, 0.9);
+    background: rgba(181, 181, 181, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: rgba(152, 150, 150, 0.9);
+    background: rgba(194, 194, 194, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -66,7 +66,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #91f159; }
+      color: #f1bc59; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -78,7 +78,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #91f159; }
+      color: #f1bc59; }
 
 .nav-item:nth-child(1) {
   transition: all 0.5s ease-out;
@@ -100,7 +100,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #989696;
+  background: #c2c2c2;
   color: #000;
   height: 100%;
   margin: 0;
@@ -117,7 +117,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(152, 150, 150, 0.9);
+      background: rgba(194, 194, 194, 0.9);
       z-index: -1; }
 
 h1, h2, h3 {
@@ -128,7 +128,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 0.5rem;
-    background: rgba(157, 155, 155, 0.5); }
+    background: rgba(199, 199, 199, 0.5); }
 
 a {
   color: white;
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #91f159; }
+  color: #f1bc59; }
 
 main {
   padding: 4rem;
@@ -154,7 +154,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #91f159;
+        color: #f1bc59;
         transition: all 0.5s ease-out; }
 
 .about-info {
@@ -177,9 +177,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #a5a3a3;
+    background: #cfcfcf;
     padding: 0.5rem;
-    border-bottom: #91f159 5px solid; }
+    border-bottom: #f1bc59 5px solid; }
     .about-info .job h4 {
       margin-top: 0; }
 
@@ -199,11 +199,11 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #91f159;
+    background: #f1bc59;
     color: #000; }
 
 .btn-dark {
-  background: #313131;
+  background: #5c5c5c;
   color: #fff; }
 
 .btn-light {
@@ -224,7 +224,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background-color: #91f159;
+      background-color: #f1bc59;
       color: white; }
       .boxes div:hover span {
         color: white; }
@@ -232,7 +232,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #7f7c7c;
+  background: darkgray;
   color: #000;
   height: 60px; }
 
@@ -280,4 +280,12 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  #contact {
+    display: flex;
+    flex-wrap: wrap; }
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: 400; }
+    h1.lg-heading, h2.lg-heading, h3.lg-heading {
+      font-size: 5rem; } }

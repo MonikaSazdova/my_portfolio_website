@@ -75,4 +75,18 @@
 	.projects {
 		grid-template-columns: repeat(1, 1fr)
 	}
+
+	#contact {
+		display: flex;
+		flex-wrap: wrap;
+}
+
+	h1, h2, h3 {
+		margin: 0;
+		font-weight: 400;
+	
+		&.lg-heading {
+			font-size: 5rem;
+		}
+}
 }
