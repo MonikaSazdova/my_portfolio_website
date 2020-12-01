@@ -92,7 +92,7 @@
 	#contact {
 		display: flex;
 		flex-wrap: wrap;
-}
+	}
 
 	h1, h2, h3 {
 		margin: 0;
@@ -105,8 +105,28 @@
 		}
 
 		&.sm-heading {
-			font-size: 1.5rem;
+			font-size: 1.2rem;
 			text-align: center;
 		}
+}
+
+// about
+.about-info {
+	.bio {
+	font-size: 1rem;
+	}
+	.job {
+		h3 {
+			font-size: 1.1rem;
+		}
+		p {
+			font-size: 0.8rem;
+		}
+	}
+	.bio-image {
+		grid-area: bioimage;
+		margin: auto;
+		border-radius: 50%;
+	}
 }
 }

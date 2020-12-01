@@ -302,5 +302,15 @@ main {
       text-align: center;
       align-content: center; }
     h1.sm-heading, h2.sm-heading, h3.sm-heading {
-      font-size: 1.5rem;
-      text-align: center; } }
+      font-size: 1.2rem;
+      text-align: center; }
+  .about-info .bio {
+    font-size: 1rem; }
+  .about-info .job h3 {
+    font-size: 1.1rem; }
+  .about-info .job p {
+    font-size: 0.8rem; }
+  .about-info .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%; } }
