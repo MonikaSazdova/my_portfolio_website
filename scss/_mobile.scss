@@ -93,8 +93,12 @@
 		font-weight: 400;
 	
 		&.lg-heading {
-			font-size: 5rem;
+			font-size: 4rem;
 			text-align: center;
+		}
+
+		&.sm-heading {
+			font-size: 1.5rem;
 		}
 }
 }
