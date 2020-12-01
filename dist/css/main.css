@@ -128,7 +128,6 @@ h1, h2, h3 {
     text-transform: uppercase; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
-    width: fit-content;
     padding: 0.2rem 0.2rem;
     text-transform: uppercase; }
 
@@ -303,7 +302,7 @@ main {
       align-content: center; }
     h1.sm-heading, h2.sm-heading, h3.sm-heading {
       font-size: 1.2rem;
-      text-align: center; }
+      position: relative; }
   .about-info .bio {
     font-size: 1rem; }
   .about-info .job h3 {
