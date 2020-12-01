@@ -60,7 +60,14 @@
 		"job3";
 
 		grid-template-columns: 1fr;
+
+		.bio-image {
+			margin: 12vh auto auto auto;
+		}
 	}
+
+	
+
 
 	.projects {
 		grid-template-columns: repeat(2, 1fr)
