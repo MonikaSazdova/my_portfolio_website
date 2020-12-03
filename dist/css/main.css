@@ -312,4 +312,6 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%; } }
+    border-radius: 50%; }
+  .boxes {
+    font-size: 0.9rem; } }
