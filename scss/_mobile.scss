@@ -132,7 +132,9 @@
 }
 
 //contact 
- .boxes {
-	font-size: 0.7rem;
+#contact {
+ .boxes > div {
+	font-size: 1rem;
  }
+}
 }
