@@ -314,4 +314,6 @@ main {
     margin: auto;
     border-radius: 50%; }
   .boxes {
-    font-size: 0.9rem; } }
+    font-size: 0.7rem; }
+  .boxes span {
+    color: black; } }
