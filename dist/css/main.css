@@ -193,6 +193,7 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
+    position: relative;
     width: 100%; }
     .projects img:hover {
       opacity: 0.6;

@@ -136,18 +136,38 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 
 	img {
+		position: relative;
 		width: 100%;
 		// border: 3px #fff solid;
 		&:hover {
 			opacity: 0.6;
-			// border: 3px $secondary-color solid;
 			@include easeOut;
 		}
 	}
 
+	// .img-text  {
+	// 		padding: 10%;
+	// 		text-align: left;
+	// 		width: 100%;
+	// 		position: relative;
+	// 		bottom: 20.4%;
+	// 		background-color: #fff;
+	// 		opacity: 0;
+	// 		z-index: 2;
+	// 		margin-bottom: -20%;
+	// 		height: 15%;
+	// 	}
+
+	// 	.img-text:hover {
+	// 		opacity: 0.6;
+	// 		// visibility: visible;
+	// 		@include easeOut;
+	// 	}
+
+	}
 
 
-}
+
 
 
 
